@@ -49,5 +49,5 @@ f01:
   li $v0, 1
   move $a0, $t0       # movemos el numero a a0 para la syscall
   syscall             # imprimos el numero en la consola
-  li $a0, 10          # salimos del programa
+  li $v0, 10          # salimos del programa
   syscall
